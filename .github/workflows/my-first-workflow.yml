@@ -1,0 +1,14 @@
+name: my first workflow 
+
+
+on: [workflow_dispatch]
+
+jobs: 
+  random-name: 
+    name: a human redable name 
+    runs-on: ubunto-latest
+
+    steps: 
+              #checkout reposotory 
+      - uses: actions/checkout@v4.2.2
+      - run: echo yay!
