@@ -6,7 +6,7 @@ on: [workflow_dispatch]
 jobs: 
   random-name: 
     name: a human redable name 
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
 
     steps: 
               #checkout reposotory 
